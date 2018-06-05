@@ -1,0 +1,13 @@
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: eurake-server2
+server:
+  port: 8761

@@ -1,0 +1,3 @@
+eureka-server服务注册中心启动在8761端口
+eureka-client启动两个实例并向服务注册中心注册，分别在8762,8763
+service-ribbon中ribbon起了负载均衡作用，调用接口会轮训8762,8763
